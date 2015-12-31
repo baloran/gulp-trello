@@ -77,8 +77,6 @@ module.exports = function gulpTrello (options) {
 
       function addCard (task, done) {
 
-       var self = this;
-
         var newCard = {
           name: task,
           pos: "top",
