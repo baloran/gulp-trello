@@ -81,7 +81,6 @@ module.exports = function gulpTrello (options) {
 
         var newCard = {
           name: task,
-          desc: "Using the Trello API is fun and easy!",
           pos: "top",
           due:null,
           idList: options.listId
