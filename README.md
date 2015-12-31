@@ -46,4 +46,4 @@ https://trello.com/1/connect?key=YOURKEY&name=Gulp-todo&response_type=token&scop
 
 ## Contributing
 
-Pull request are welcome.
+Pull requests are welcome.
