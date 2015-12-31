@@ -1,6 +1,6 @@
 {
   "name": "gulp-trello",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A trello plugin for gulp.",
   "scripts": {
     "test": "mocha"
