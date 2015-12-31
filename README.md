@@ -36,10 +36,10 @@ gupl.task('default', function () {
 
 ### Configuration
 
-Board its your board id: You can grab easily when you in the url. Its just before the board name.
-listName: Is the list name. Warning is case sensitive!
-key: Go on this [page](https://trello.com/app-key) for copy.
-Token: Use this url for generate one:
+- Board its your board id: You can grab easily when you in the url. Its just before the board name.
+- listName: Is the list name. Warning is case sensitive!
+- key: Go on this [page](https://trello.com/app-key) for copy.
+- Token: Use this url for generate one:
 ```
 https://trello.com/1/connect?key=YOURKEY&name=Gulp-todo&response_type=token&scope=read,write&expiration=never
 ```
