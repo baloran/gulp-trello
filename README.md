@@ -1,3 +1,6 @@
+[![Dependency Status](https://david-dm.org/baloran/gulp-trello.svg?style=flat)](https://david-dm.org/baloran/gulp-trello)
+[![devDependency Status](https://david-dm.org/baloran/gulp-trello/dev-status.svg?style=flat)](https://david-dm.org/baloran/gulp-trello#info=devDependencies)
+
 # Gulp Todo
 
 > A trello plugin for gulp.
@@ -23,7 +26,7 @@ npm install gulp-trello --save-dev
 var gulp = require('gulp');
 var trello = require('gulp-trello');
 
-gupl.task('default', function () {
+gulp.task('default', function () {
   return gulp.src('app.js')
           .pipe(trello({
             board: 'YOUR BOARD NAME',
