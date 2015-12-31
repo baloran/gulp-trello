@@ -1,0 +1,24 @@
+{
+  "name": "gulp-trello",
+  "version": "0.0.1",
+  "description": "A trello plugin for gulp.",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Baloran aka Arnaud Allouis <hello@baloran.fr> (http://baloran.fr)",
+  "license": "MIT",
+  "repository": "baloran/gulp-trello",
+  "keywords": ["trello", "gulpplugin", "todo", "task", "card", "gulp"],
+  "dependencies": {
+    "async": "^1.5.0",
+    "node-trello": "^1.1.2",
+    "readable-stream": "^2.0.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.0",
+    "vinyl": "^1.1.0"
+  }
+}
